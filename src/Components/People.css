@@ -1,0 +1,41 @@
+.people {
+  margin-top: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+  margin-bottom: 15px;
+  justify-content: center;
+  cursor: pointer;
+}
+.people__name {
+  font-size: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.people__birth {
+  display: flex;
+  justify-content: flex-end;
+}
+.people__birth > span {
+  background-color: lightgray;
+  padding: 9px;
+  border-radius: 40px;
+  width: 100px;
+  text-align: center;
+  margin-right: 15px !important;
+}
+.people__gender {
+  color: gray;
+  margin-left: 15px;
+  font-size: 15px;
+}
+@media only screen and (max-width: 435px) {
+  .people {
+    margin-top: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: center;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,43 @@
+.data {
+  margin: 15px 25px;
+}
+.data > h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+}
+.data > h3 {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+  color: red;
+}
+.data__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding: 10px 20px;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.data__input > input {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: medium;
+  border: none;
+  outline: none;
+}
+
+.data__inputIcon {
+  color: gray;
+}
+.data__link {
+  color: black;
+  text-decoration: none;
+}

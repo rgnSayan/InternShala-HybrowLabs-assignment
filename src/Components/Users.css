@@ -1,0 +1,15 @@
+.users {
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 15px;
+  margin: 25px;
+  height: 490px;
+}
+.users__h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+}
